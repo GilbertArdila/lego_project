@@ -12,7 +12,7 @@
     
    
 }
-
+/*estilos desde 874px se debe estilizar el mobile*/
 .main-container{
     display: grid;
     grid-template-columns: 55% 45%;
