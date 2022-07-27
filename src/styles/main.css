@@ -1,0 +1,11 @@
+@import './resetAndVariables.css';
+@import './loader.css';
+
+.page{
+    position: relative;
+    height: 100vh;
+}
+.left-container{
+    position: absolute;
+    z-index: 1;
+}
