@@ -1,0 +1,41 @@
+.navbar{
+  grid-area: nav;
+  background-color: var(--yellow);
+  display: flex;
+  animation: 2s navbar 0.5s ease-in-out;
+    
+}
+/*la duración de 3s del animatios esta ligada con los 2s del loading*/
+.navbar__content{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    padding: 0 0 0 10px ;
+    animation: 3s navbar 0.5s ease-in-out;
+}
+.navbar__content img{
+  width: 50px;
+}
+.navbar__content ul{
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+    width: 450px;
+  }
+  .navbar__content a{
+    font-size: 1.2rem;
+    font-weight: 100;
+    text-decoration: none;
+    color: var(--red);
+    padding: 1px;
+  }
+  /* animation para que el navbar baje */
+  @keyframes navbar{
+    0%{
+       transform: translateY(-200px);
+    }
+    100%{
+        transform: translateY(0);
+    }
+  }
+
