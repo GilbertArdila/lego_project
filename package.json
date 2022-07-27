@@ -1,0 +1,15 @@
+{
+  "name": "lego_proyect",
+  "version": "1.0.0",
+  "description": "Proyecto de maquetación web con animaciones css",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "maquetación",
+    "web"
+  ],
+  "author": "Gilbert Ardila <gilbertferney@gmail.com>",
+  "license": "MIT"
+}
