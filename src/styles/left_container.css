@@ -1,5 +1,32 @@
 
 .left-container__main{
    grid-area: section;
-   
+   display: flex;
+   flex-direction: column;
+  justify-content: center;
+  margin-top: 50px;
+  padding: 150px 10px 0 30px;
+  animation: 3s main 0.5s ease-in-out; 
+}
+@keyframes main{
+   0%{
+     transform: translateY(-500px);
+   }
+   100%{
+      transform: translateY(0px);
+   }
+}
+.left-container__main p:first-child{
+    font-size: 3.6rem;
+    font-weight: 300;
+    margin: 0 0 -16px 44px;
+}
+.left-container__main p:last-child{
+   font-weight: 100;
+   width: 100%;
+}
+.left-container__main h1{
+   font-size: 4.8rem;
+    font-weight: 700;
+    margin: 0 0 28px 0;
 }
