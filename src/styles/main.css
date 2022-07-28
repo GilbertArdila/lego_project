@@ -4,11 +4,12 @@
 @import './left_container.css';
 @import './right_container.css';
 @import './footer.css';
+@import './modal.css';
 
 .page{
     position: relative;
     width: 100%;
-    min-height: 100vh;
+    height: 100vh;
     
    
 }
