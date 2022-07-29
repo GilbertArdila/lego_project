@@ -1,17 +1,16 @@
 .right-container{
    position: relative;
-   grid-area: aside;
+   grid-area: section;
    display: flex;
 }
 .right-div{
    width: 100%;
    height: 100%;
-   background-color: var(--yellow);
+   background-color: var(--blue);
 
 }
 .left-div{
    display: flex;
-   
    width: 100%;
    height: 100%;
 }
@@ -38,9 +37,9 @@
 }
 .right-container img{
   position: absolute;
-  width: 350px;
-  top:20%;
-  left: calc(30%);
+  width: 200px;
+  top:calc(15%);
+  left: calc(25%);
   animation:2s appear 0.5s ease-in-out;
 
 }
@@ -49,4 +48,32 @@
       transform: translateX(600px);
    }
    100%{transform: translateX(0px);}
+}
+@media(min-width:480px){
+   .right-container{
+     
+      grid-area: aside;
+      
+   }
+}
+@media(min-width:932px){
+.right-container{
+   position: relative;
+   grid-area: aside;
+   display: flex;
+}
+.right-div{
+   width: 100%;
+   height: 100%;
+   background-color: var(--yellow);
+
+}
+.right-container img{
+   width: 350px;
+   top:20%;
+   left: calc(30%);
+  
+ 
+ }
+
 }

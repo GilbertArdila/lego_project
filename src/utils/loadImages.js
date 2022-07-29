@@ -1,23 +1,23 @@
 const mainImage=[
   {characterName:'Superman',
     url:'https://i.ibb.co/x16pz1x/super-man.png',
-    left:'123px'
+    left:'calc(30%)'
   },
   {characterName:'Captain america',
     url:'/src/assets/cap.png',
-    left:'146px'
+    left:'calc(30%)'
   },
   {characterName:'Thor',
     url:'/src/assets/thor.png',
-    left:'75px'
+    left:'calc(30%)'
   },
   {characterName:'Venom',
     url:'/src/assets/vemon.png',
-    left:'92px'
+    left:'calc(30%)'
   },
   {characterName:'Iron man',
     url:'/src/assets/iron.png',
-    left:'58px'
+    left:'calc(25%)'
   }
 ]
 function random(min, max) {
