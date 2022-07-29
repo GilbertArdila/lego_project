@@ -38,7 +38,7 @@
 }
 .right-container img{
   position: absolute;
-  width: 250px;
+  width: 350px;
   top:20%;
   left: calc(30%);
   animation:2s appear 0.5s ease-in-out;

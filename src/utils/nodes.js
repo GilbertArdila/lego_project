@@ -10,7 +10,7 @@ const right_container_name=document.getElementById("right_container_name");
 const logo_img=document.getElementById("logo_img");
 
 const left_container_div=document.querySelectorAll(".left-container__footer-img");
-
+const cards=document.querySelector(".cards");
 const radio_1_img=document.getElementById("radio-1_img")
 const radio_2_img=document.getElementById("radio-2_img")
 const radio_3_img=document.getElementById("radio-3_img")
