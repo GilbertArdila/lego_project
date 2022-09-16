@@ -5,19 +5,19 @@ const mainImage=[
     left:'calc(30%)'
   },
   {characterName:'Captain america',
-    url:'../src/assets/cap.png',
+    url:'../assets/cap.png',
     left:'calc(30%)'
   },
   {characterName:'Thor',
-    url:'../src/assets/thor.png',
+    url:'../assets/thor.png',
     left:'calc(30%)'
   },
   {characterName:'Venom',
-    url:'../src/assets/vemon.png',
+    url:'../assets/vemon.png',
     left:'calc(30%)'
   },
   {characterName:'Iron man',
-    url:'../src/assets/iron.png',
+    url:'../assets/iron.png',
     left:'calc(25%)'
   }
 ]
