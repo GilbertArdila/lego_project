@@ -5,19 +5,19 @@ const mainImage=[
     left:'calc(30%)'
   },
   {characterName:'Captain america',
-    url:'../assets/cap.png',
+    url:'https://www.lego.com/cdn/cs/catalog/assets/bltb66fe4b6a4280bb8/1/CaptainAmerica.png?width=320',
     left:'calc(30%)'
   },
   {characterName:'Thor',
-    url:'../assets/thor.png',
+    url:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRYVyCuD5wFascVJyGuJbyMHmcEMO_FtAITuA&usqp=CAU',
     left:'calc(30%)'
   },
   {characterName:'Venom',
-    url:'../assets/vemon.png',
+    url:'https://www.lego.com/cdn/cs/set/assets/bltb6c692b914d00b2c/76230.png',
     left:'calc(30%)'
   },
   {characterName:'Iron man',
-    url:'../assets/iron.png',
+    url:'https://static.wikia.nocookie.net/lego/images/7/73/Iron_Man_76218.png',
     left:'calc(25%)'
   }
 ]
